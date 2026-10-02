@@ -22,6 +22,7 @@ pagination, blocking and cleanup. This list is organized in that order.
 - [Hosted Scraping Platforms](#hosted-scraping-platforms)
 - [Ready-Made Scrapers](#ready-made-scrapers)
 - [Working with the Data](#working-with-the-data)
+- [Scheduling & Pipelines](#scheduling--pipelines)
 - [Legal & Etiquette](#legal--etiquette)
 - [Learning](#learning)
 - [Related Lists](#related-lists)
@@ -126,6 +127,29 @@ Browse [360+ more in the Awesome Web Scrapers list](https://github.com/abotapi/a
 
 - **[jq](https://jqlang.org/)** - Slice and transform JSON output on the command line
 - **[Datasette](https://datasette.io/)** - Explore and publish scraped data as an instant web app and API
+- **[DuckDB](https://github.com/duckdb/duckdb)** - Run SQL directly over JSON, CSV and Parquet exports, no database server needed
+- **[pandas](https://github.com/pandas-dev/pandas)** / **[Polars](https://github.com/pola-rs/polars)** - DataFrames for cleaning, joining and analyzing results (Polars is the faster, multi-threaded option)
+- **[sqlite-utils](https://github.com/simonw/sqlite-utils)** - Load JSON into SQLite in one command, with automatic schema detection
+- **[csvkit](https://github.com/wireservice/csvkit)** - Command-line tools for inspecting and converting CSV
+- **[OpenRefine](https://github.com/OpenRefine/OpenRefine)** - Desktop tool for cleaning messy data: clustering near-duplicates, splitting columns, reconciling entities
+
+Scraped fields are rarely clean. These parse the usual suspects:
+
+- **[dateparser](https://github.com/scrapinghub/dateparser)** - Parse dates in 200+ languages, including relative ones like "3 days ago"
+- **[price-parser](https://github.com/scrapinghub/price-parser)** - Split a price string like "1.299,00 €" into amount and currency
+- **[libpostal](https://github.com/openvenues/libpostal)** - Parse and normalize street addresses worldwide
+- **[phonenumbers](https://github.com/daviddrysdale/python-phonenumbers)** - Validate and format international phone numbers
+
+## Scheduling & Pipelines
+
+Most data is only useful when it's fresh. Ways to re-run a scrape on a schedule and push results somewhere useful:
+
+- **[GitHub Actions `schedule`](https://docs.github.com/en/actions/writing-workflows/choosing-when-your-workflow-runs/events-that-trigger-workflows#schedule)** - Free cron for small jobs. Commit the CSV back to the repo to get a version history of the data (the "git scraping" pattern)
+- **[Git scraping](https://simonwillison.net/2020/Oct/9/git-scraping/)** - Simon Willison's write-up of that pattern
+- **[n8n](https://github.com/n8n-io/n8n)** - Self-hostable workflow automation; trigger a scrape and route rows to Sheets, Slack or a database
+- **[Apache Airflow](https://github.com/apache/airflow)** - The standard for scheduled data pipelines with dependencies and retries
+- **[Prefect](https://github.com/PrefectHQ/prefect)** / **[Dagster](https://github.com/dagster-io/dagster)** - Lighter, Python-first orchestrators
+- **[Apify schedules & integrations](https://docs.apify.com/platform/integrations?utm_source=github&utm_medium=awesome-scraping-apis&utm_campaign=content)** - Built-in cron plus webhooks and connectors (Google Sheets, Zapier, Make, n8n) for scrapers hosted there
 
 ## Legal & Etiquette
 
@@ -136,10 +160,15 @@ Browse [360+ more in the Awesome Web Scrapers list](https://github.com/abotapi/a
 ## Learning
 
 - **[Scrapy documentation](https://docs.scrapy.org/en/latest/)** - Includes an excellent tutorial for beginners
+- **[Web Scraping Academy](https://docs.apify.com/academy?utm_source=github&utm_medium=awesome-scraping-apis&utm_campaign=content)** - Free course from HTML basics to crawling, API scraping and anti-blocking fundamentals
+- **[Crawlee guides](https://crawlee.dev/docs/introduction)** - Step-by-step introduction to building a crawler in Node.js
+- **[Playwright for Python](https://playwright.dev/python/docs/intro)** - Official docs for browser automation from Python
 
 ## Related Lists
 
 - **[awesome-web-scraping](https://github.com/lorien/awesome-web-scraping)** - Libraries and tools for web scraping, by language
+- **[public-apis](https://github.com/public-apis/public-apis)** - Free APIs, a good first stop before scraping anything
+- **[awesome-public-datasets](https://github.com/awesomedata/awesome-public-datasets)** - Open datasets by topic
 
 ## Contributing
 
