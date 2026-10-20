@@ -75,6 +75,7 @@ Turn pages into clean text or Markdown for LLMs.
 
 - **[Trafilatura](https://github.com/adbar/trafilatura)** - Main-text, metadata and comments extraction
 - **[Firecrawl](https://github.com/mendableai/firecrawl)** - Crawl a site into LLM-ready Markdown
+- **[Website Screenshot & URL to PDF (Apify Actor)](https://apify.com/pennydata/shot-pdf)** - Bulk full-page screenshots and URL/HTML to PDF on headless Chromium, pay per result ($0.001 per screenshot, $0.004 per PDF)
 - **[Crawl4AI](https://github.com/unclecode/crawl4ai)** - Open-source LLM-friendly crawler
 
 ## Hosted Scraping Platforms
