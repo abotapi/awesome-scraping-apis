@@ -20,6 +20,7 @@ pagination, blocking and cleanup. This list is organized in that order.
 - [Scraping Libraries](#scraping-libraries)
 - [Content Extraction & AI Crawlers](#content-extraction--ai-crawlers)
 - [Hosted Scraping Platforms](#hosted-scraping-platforms)
+- [Domain-Specific Hosted Data](#domain-specific-hosted-data)
 - [Ready-Made Scrapers](#ready-made-scrapers)
 - [Working with the Data](#working-with-the-data)
 - [Scheduling & Pipelines](#scheduling--pipelines)
@@ -86,6 +87,10 @@ Run scrapers without managing servers and proxies.
 - **[ScrapingBee](https://www.scrapingbee.com/)** - Scraping API with headless browsers and proxies
 - **[Bright Data](https://brightdata.com/)** - Proxy networks, scraping browsers and datasets
 - **[SerpApi](https://serpapi.com/)** - Google and other search engine results as JSON
+
+## Domain-Specific Hosted Data
+
+- **[ShortDramaKit](https://shortdramakit.com/)** - Collect available short-drama title details for supported platforms and export research lists via web UI or API. Sign-in and credits are required for fresh lookups; coverage varies.
 
 ## Ready-Made Scrapers
 
