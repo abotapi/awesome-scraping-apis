@@ -76,6 +76,7 @@ Turn pages into clean text or Markdown for LLMs.
 - **[Trafilatura](https://github.com/adbar/trafilatura)** - Main-text, metadata and comments extraction
 - **[Firecrawl](https://github.com/mendableai/firecrawl)** - Crawl a site into LLM-ready Markdown
 - **[Crawl4AI](https://github.com/unclecode/crawl4ai)** - Open-source LLM-friendly crawler
+- **[Keenable](https://keenable.ai)** - Web search plus page fetch as clean Markdown for AI agents, over REST API or hosted MCP
 
 ## Hosted Scraping Platforms
 
