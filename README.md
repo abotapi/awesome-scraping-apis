@@ -87,6 +87,7 @@ Run scrapers without managing servers and proxies.
 - **[ScrapingBee](https://www.scrapingbee.com/)** - Scraping API with headless browsers and proxies
 - **[Bright Data](https://brightdata.com/)** - Proxy networks, scraping browsers and datasets
 - **[SerpApi](https://serpapi.com/)** - Google and other search engine results as JSON
+- **[FlashData](https://flashdata.dev/)** - Google Search, News, Images, Shopping, Videos and Places plus YouTube search, metadata, existing transcripts and downloads via APIs/MCP; API key and paid credits required.
 
 ## Ready-Made Scrapers
 
