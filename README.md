@@ -88,6 +88,7 @@ Run scrapers without managing servers and proxies.
 - **[Bright Data](https://brightdata.com/)** - Proxy networks, scraping browsers and datasets
 - **[SerpApi](https://serpapi.com/)** - Google and other search engine results as JSON
 - **[FlashData](https://flashdata.dev/)** - Google Search, News, Images, Shopping, Videos and Places plus YouTube search, metadata, existing transcripts and downloads via APIs/MCP; API key and paid credits required.
+- **[Tapline](https://tapline.sh)** - Structured JSON from YouTube, TikTok, Instagram, LinkedIn, Airbnb, Zillow and Google Maps via REST API and remote MCP server
 
 ## Ready-Made Scrapers
 
