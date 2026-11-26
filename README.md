@@ -88,6 +88,7 @@ Run scrapers without managing servers and proxies.
 - **[Bright Data](https://brightdata.com/)** - Proxy networks, scraping browsers and datasets
 - **[SerpApi](https://serpapi.com/)** - Google and other search engine results as JSON
 - **[FlashData](https://flashdata.dev/)** - Google Search, News, Images, Shopping, Videos and Places plus YouTube search, metadata, existing transcripts and downloads via APIs/MCP; API key and paid credits required.
+- **[Groundsocial](https://groundsocial.dev)** - Public data from Reddit, X, TikTok, Instagram, YouTube, LinkedIn, Google, Amazon and 70+ more platforms as JSON in each platform's own shape, over REST or a hosted MCP server; API key, 100 free credits, then paid credits.
 
 ## Ready-Made Scrapers
 
